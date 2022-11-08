@@ -78,7 +78,7 @@ function Register() {
         <input type="password" placeholder='Confirm Password' name='ConfirmPassword' onChange={(e) => handleChange(e)} />
           <button type='submit'>Create Account</button>
           <span>
-            Already have an account ? <Link to='/login'>Login</Link>
+            Already have an account? <Link to='/login'>Login</Link>
           </span>
     </form>
     </FormContainer>
