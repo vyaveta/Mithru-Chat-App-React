@@ -51,7 +51,7 @@ function Chat() {
        <div className="container">
        <Contacts contacts = {contacts} currentUser = {currentUser} changeChat = {handleChatChange} />
        { !isLoading &&
-         currentChat === undefined ? ( <Welcome  currentUser = {currentUser} /> ) : ( <ChatContainer currentChat = {currentChat} /> )
+         currentChat === undefined ? ( <Welcome  currentUser = {currentUser} /> ) : ( <ChatContainer currentChat = {currentChat} currentUser ={currentUser} /> )
        }
        </div>
       </Container>
@@ -68,7 +68,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 1rem;
-background-color: #cccc;
+background-color: black;
  .container{
   height: 85vh;
   width: 85vw;
