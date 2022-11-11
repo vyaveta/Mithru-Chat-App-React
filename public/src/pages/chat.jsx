@@ -89,6 +89,11 @@ background-color: black;
   @media screen and (min-width: 720px) and (max-width: 1080px){
     grid-template-columns :35% 65%; 
   }
+  @media screen and (max-width: 720px){
+      width: 100vw;
+      height: 98vh;
+    grid-template-columns :30% 70%; 
+  }
  }
 `
 export default Chat

@@ -115,6 +115,25 @@ padding-bottom: 0.3rem;
         }
     }
 }
+@media screen and (max-width: 720px){
+    grid-template-columns: 10% 90%;
+    .input-container{
+        height: 2rem;
+        input{
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    grid-template-columns: 20% 80%;
+    button{
+        padding: 0.5rem !important;
+        svg{
+            font-size: 1rem !important;
+        }
+    }
+}
 `
 
 export default ChatInput

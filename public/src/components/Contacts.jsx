@@ -141,5 +141,48 @@ border-radius: 4rem;
         }
     }
  }
+
+
+ @media screen and (max-width: 720px){
+    .brand{
+        font-size: 0.8rem;
+        img{
+            height: 1.7rem;
+        }
+        h3{
+            font-size: 0.9rem;
+        }
+    }
+ }
+ .contacts{
+    .contact{
+       padding: 0.1rem;
+       min-height: 1rem !important;
+       height: 3rem;
+       .avatar{
+        img{
+            height: 2rem;
+        }
+       }
+       .username{
+        h3{
+            font-size: 0.9rem;
+        }
+       }
+    }
+ }
+ .current-user{
+    gap: 1rem;
+    .avatar{
+        img{
+            height: 2rem;
+        }
+    }
+    .username{
+        h2{
+            font-size: 1rem;
+        }
+    }
+ }
 `
 export default Contacts

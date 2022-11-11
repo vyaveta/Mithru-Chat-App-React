@@ -94,6 +94,25 @@ overflow: hidden;
 @media screen and (min-width: 720px) and (max-width: 1080px){
     gird-template-rows: 15% 70% 15%;
 }
+@media screen and (max-width: 720px){
+    gird-template-rows: 10% 80% 15%;
+   .chat-header{
+     padding: 1rem;
+     .user-details{
+       font-size: 1rem;
+     }
+   }
+   .chat-messages{
+    .message{
+       .content{
+        background: green !important;
+        font-size: 0.7rem !important;
+        padding: 0.5rem !important;
+        border-radius: 0.4rem !important;
+       }
+    }
+   }
+  }
  .chat-header{
     display: flex;
     justify-content: space-between;
